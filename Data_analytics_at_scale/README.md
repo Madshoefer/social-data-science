@@ -1,4 +1,4 @@
-**How about you readme?**
+**This file outlines the instructions for the given assignment.**
 
 # Data Analytics at Scale Summative Assessment
 
