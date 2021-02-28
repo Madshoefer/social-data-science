@@ -20,3 +20,11 @@ After this, candidates must compare the performance (both in terms of accuracy a
 - wavelet hashing (wHash) 
 
 FIN expect a written report, not to exceed 3,500 words, consisting of two parts. Part 1 will report on FINd including an initial assessment of the performance of the code, the optimizations attempted, and the resulting changes (positive or negative) in computational performance. Candidates should discuss any relevant trade-offs (e.g., CPU vs. memory) of these optimizations. The second half of the report should focus on how FINd compares to the two other image hashing methods selected. This part should analyse both the accuracy of the results as well as the computational costs. The report should focus most in-depth on the trade-offs of different approaches (e.g., the advantages and disadvantages of each approach and how the approaches compare to one another). Finally, candidates should discuss which approach is the 'best' for the given dataset and FIN’s need to match similar images at scale. 
+
+## Data
+
+We will use the "meme generator" dataset from the Library of Congress to evaluate our image hashing algorithms. The dataset may be downloaded from the OII file server as das_images.zip. It consists of 55,972 JPEG images belonging to 1,034 groups (or "meme families").
+
+Filenames consist of two parts. The first four numbers followed by an underscore indicate the meme family of the image. For example, all images that begin "0086_" are part of meme family 86 and should be more similar to one another than to images in other groups. The data are not perfect, and thus even a perfect algorithm will not achieve a perfect score.
+
+Please note that some images may be offensive.
