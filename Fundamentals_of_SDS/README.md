@@ -1,4 +1,4 @@
-Please see the instruction for the assignment attached, for the purpose of context. Please also note that parts of the data used in the coursework are paid for, and can therefore not be accessed by third-party users.
+**Please see the instruction for the assignment attached, for the purpose of context. Please also note that parts of the data used in the coursework are paid for, and can therefore not be accessed by third-party users.**
 
 
 # Fundamentals of Social Data Science in Python Assessment
