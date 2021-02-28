@@ -1,4 +1,4 @@
-**This file outlines the instructions for the given assignment.**
+**This file outlines the instructions for the given assignment. Please note that the data has not been attached, because it is too large. Nevertheless, instruction on which data are used is given and the work may still be replicated.**
 
 # Data Analytics at Scale Summative Assessment
 
