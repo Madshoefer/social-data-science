@@ -2,7 +2,7 @@
 
 This repository stores code necessary for my postgraduate Thesis as part of the MSc in Social Data Science at the Oxford Internet institute. It stores the following material:
 
-- Amazon Web-Scraper
+- [Amazon Web-Scraper](Amazon_BSR_Webscraper.py)
 - Data Analysis Code (to be added)
 - Data Visualisation Code (to be added)
 
