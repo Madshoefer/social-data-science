@@ -1,16 +1,12 @@
-**This file outlines the instructions for the given assignment. Please note that some of the data has been prepared outside of the scope of this assignment and the preparation code has not been included.**
-
 # Applied Analytical Statistics Assessment
 
-The main task of the assessment is to demonstrate that students can apply analytical statistics to answer a social science research question. In order to do this, students should choose a research question and data which can be used to address the question, and design and implement an analysis. Students are encouraged to use some of the analytical techniques specifically taught in class, though application of other techniques is acceptable if appropriate for the question. We would strongly encourage the students to use an already existing dataset for their analysis rather than spending time on data collection. The use of novel datasets is permitted; however, no extra marks will be given for data novelty.  
+**Module overview:** The module has the following key learning objectives:
 
-Students will be asked to submit a short description of their proposed question and project in week 4 and will receive feedback on its suitability.
+- Understanding of the types of statistical tools available to students to enable them to answer social research questions
+- Understanding of how to describe quantitative data
+- Regression models and interpret the output
+- Present the results of regression models in research papers
 
-#### In their maximum 5,000-word project report, students should include the following elements:
+During the course, students will make use of the Python programming language, and hence build familiarity with the language as they progress through the course, particularly some typical libraries for the analysis and display of data such as Pandas, scikit-learn and matplotlib.
 
-- Introduction. Describe an analytical research question with reference to existing literature on the subject. We do not expect an extensive literature review but students will be rewarded for clearly linking their question to a body of theory to be tested. In particular, students are encouraged to develop specific hypotheses related to the question they will be testing
-- Methods. Report on the type of analysis used to address the research question. Describe the dataset, including general notes on how it was collected and specific descriptive statistics of interest.
-- Results. Give the necessary results needed to answer the research question. At this point avoiding discussing the results or linking them with the existing literature. 
-- Discussion. Draw conclusions and thus answer the research question.  Discuss the limitations of the analysis.
-
-Code for the project can be submitted as an appendix, which does not count towards the 5,000-word limit.
+**Coursework:** I devoted my coursework for this module to empirically assess the effect of income changes on happiness levels. As such, I investigated the individual utility model based on income comparisons proposed by Clark and Frijters (2008) as a response to a paradox introduced by Easterlin (1974), namely that increases in individual income increase individual happiness, but that increases in average income do not increase average happiness. The paper lays out four hypotheses related to Clark and Frijters (2008): (1) increases in absolute income increase individual happiness, prone to adaptation and diminishing returns, (2) increases in relative income enduringly increase individual happiness with diminishing returns, (3) as a consequence of (1)-(2) distributional GDP growth changes average happiness levels, and (4) several predictors beyond individual income (absolute or relative) exist that affect happiness. The empirical application of Clark and Frijters’ (2008) utility model includes a cross-sectional analysis via multiple linear regression, and a longitudinal analysis via a synthetic control method, the results of which largely support the hypotheses to be tested.
